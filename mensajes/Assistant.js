@@ -8,7 +8,7 @@ const openai = new OpenAI({
 });
 
 // Mapeo para almacenar los hilos de conversación de los usuarios
-const userThreads = {};
+const userThreads = {"5493812010781":"thread_tWAdefP1xDPko4qOoicTKhZj"};
 
 // Function to create a new thread
 async function createThread() {
@@ -23,8 +23,7 @@ async function createThread() {
 
 // Function to get or create a thread for a user
 async function getOrCreateThread(userId) {
-
-  const thread = await openai.beta.threads.retrieve();
+ 
 
   if (!userThreads[userId]) {
     // Create a new thread if it doesn't exist
@@ -47,18 +46,15 @@ async function chatWithAssistant(ctx) {
       {role: 'user', content: ctx.body});
     
       const messagesResponse = await openai.beta.threads.messages.list(threadId);
-   //   const messages = messagesResponse.data;
   
       // Obtener la respuesta del asistente
-      //const assistantMessage = messages.find(msg => msg.role === 'assistant')?.content || 'No response from assistant';
-      //const run = await openai.beta.threads.runs.create(threadId, assistant_id: process.env.ASSISTANT_ID, "Intruccions");
       let respuesta ="sin respuesta";
       const run = await openai.beta.threads.runs.create(threadId, 
                 { assistant_id: process.env.ASSISTANT_ID});
                 
 
-                // Polling mechanism to see if runStatus is completed
-         // Imediately fetch run-status, which will be "in_progress"
+       // Polling mechanism to see if runStatus is completed
+       // Imediately fetch run-status, which will be "in_progress"
          let runStatus = await openai.beta.threads.runs.retrieve(
           threadId,
           run.id
@@ -101,30 +97,6 @@ async function chatWithAssistant(ctx) {
         ) {
           console.log("No response received from the assistant.");
         }
-                /*
-                const checkStatusAndPrintMessages = async (threadId, runId) => {
-                  let runStatus = await openai.beta.threads.runs.retrieve(threadId, runId);
-                  if(runStatus.status === "completed"){
-                      let messages = await openai.beta.threads.messages.list(threadId);
-                      messages.data.forEach((msg) => {
-                          const role = msg.role;
-                          if(role === "assistant"){
-                              respuesta = msg.content[0].text.value;
-                              //return msg.content[0].text.value; ;
-                          }
-                          const content = msg.content[0].text.value; 
-                          console.log(
-                              `${role.charAt(0).toUpperCase() + role.slice(1)}: ${content}`
-                          );
-                      });
-                  } else {
-                      console.log("Run is not completed yet.");
-                  }  
-              };
-              
-              setTimeout(() => {
-                  checkStatusAndPrintMessages(threadId, run.id)
-              }, 10000 );*/
               
 
       return respuesta;

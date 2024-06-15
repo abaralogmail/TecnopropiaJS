@@ -1,15 +1,15 @@
 [
   {
-    "ref": "9e6c9c44-4e6e-4fca-a70d-7651939961b9",
-    "keyword": "a6979bf7dafb93835e64ff4f5c2c7eb1",
-    "answer": "asd",
+    "ref": "31302cf3-8c34-4e81-9b44-9280f93f5d3d",
+    "keyword": "b71baabdf80db415687183f8ab180e41",
+    "answer": "vista",
     "options": {},
     "from": "5493812010781",
-    "refSerialize": "6988c0490446f551a44ac1d6ae1ba6a3"
+    "refSerialize": "7a29f7f05174ca33e0606acaa0bbeaec"
   },
   {
-    "ref": "ans_e784f5f3-1be3-40fc-aea3-f578db61def2",
-    "keyword": "key_c0ff6010-a73d-4d74-848c-ee2dfbfe71ad",
+    "ref": "ans_2fde1854-148b-49a6-a846-50b3c2ad8a89",
+    "keyword": "key_cb1b4501-7c0c-4466-8424-7e511c41ebb7",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,7 +23,46 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "c563f693a4997d307dc0d45851a1af7f",
+    "refSerialize": "d457ded387542045e9bd35c6ecb9fea3",
     "from": "5493812010781"
+  },
+  {
+    "ref": "3a544ffc-933b-491c-bda0-a80c4b3b76fe",
+    "keyword": null,
+    "answer": "La propiedad ubicada en el Country del Golf Nuevo ofrece una vista panorámica hacia la ciudad y los campos de limones",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "24deb1602083a65ec5422103e4e65fa3"
+  },
+  {
+    "ref": "79e87f31-0a39-40b5-bc75-467fd98c2825",
+    "keyword": null,
+    "answer": "Esta ubicación privilegiada permite disfrutar de un entorno natural excepcional y una orientación hacia el Sur y Norte para aprovechar al máximo la luz solar durante todo el día",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3e4f29f95f59235280884d57f9a0c3da"
+  },
+  {
+    "ref": "fb59b0f2-d865-420f-81a7-78890d00727c",
+    "keyword": null,
+    "answer": "Además, el barrio está rodeado de una vegetación exuberante y un sector de bosque borde, brindando una sensación de tranquilidad y conexión con la naturaleza【14:0†source】.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "8864e11e26818f317a2198a4587b5e5d"
   }
 ]

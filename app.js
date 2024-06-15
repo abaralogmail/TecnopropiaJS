@@ -17,38 +17,8 @@ const { chatWithAssistant } = require('./mensajes/Assistant.js');
 const flowWelcome = addKeyword(EVENTS.WELCOME)
 //    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
 
-//.addAction(async (ctx, { flowDynamic, state }) => {
-/*    .addAnswer('hola',async (ctx, { flowDynamic, state }) => {
-    try{
-        const newHistory = (state.getMyState()?.history ?? [])
-        const name = ctx?.pushName ?? ''
-
-        newHistory.push({
-            role: 'user',
-            content: ctx.body
-        })
-const largeResponse = await run(ctx, newHistory)
-     //   console.log(`[RESPONSE]:`,largeResponse);
-        const chunks = largeResponse.split(/(?<!\d)\.\s+/g);
-        for (const chunk of chunks) {
-            await flowDynamic(chunk)
-        }
-
-        newHistory.push({
-            role: 'assistant',
-            content: largeResponse
-        })
-    
-        await state.update({history: newHistory})
-
-    }catch(err){
-        console.log(`[ERROR]:`,err)
-    }
-})*/
-
 
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
-    //.addAnswer('🙌 Hola bienvenido a este *Chatbot*')
     .addAction(async (ctx, { flowDynamic, state }) => {
         try {
             const newHistory = (state.getMyState()?.history ?? [])
@@ -58,13 +28,9 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
                 role: 'user',
                 content: ctx.body
             })
-      
-       /*     chatWithAssistant(ctx.body).then(response => {
-                console.log('Respuesta del asistente:', response);
-            });*/
-            console.log("New History:", ctx.body);
+     
             const largeResponse = await chatWithAssistant(ctx)
-            //   console.log(`[RESPONSE]:`,largeResponse);
+            
             const chunks = largeResponse.split(/(?<!\d)\.\s+/g);
             for (const chunk of chunks) {
                 await flowDynamic(chunk)
