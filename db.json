@@ -1,0 +1,29 @@
+[
+  {
+    "ref": "9e6c9c44-4e6e-4fca-a70d-7651939961b9",
+    "keyword": "a6979bf7dafb93835e64ff4f5c2c7eb1",
+    "answer": "asd",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "6988c0490446f551a44ac1d6ae1ba6a3"
+  },
+  {
+    "ref": "ans_e784f5f3-1be3-40fc-aea3-f578db61def2",
+    "keyword": "key_c0ff6010-a73d-4d74-848c-ee2dfbfe71ad",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c563f693a4997d307dc0d45851a1af7f",
+    "from": "5493812010781"
+  }
+]
