@@ -1,68 +1,10 @@
 [
   {
-    "ref": "31302cf3-8c34-4e81-9b44-9280f93f5d3d",
-    "keyword": "b71baabdf80db415687183f8ab180e41",
-    "answer": "vista",
+    "ref": "8cdf0972-b5e9-4009-a085-a74655b56837",
+    "keyword": "66fac4d9e424d68483c77e6fa76a19f5",
+    "answer": "23",
     "options": {},
     "from": "5493812010781",
-    "refSerialize": "7a29f7f05174ca33e0606acaa0bbeaec"
-  },
-  {
-    "ref": "ans_2fde1854-148b-49a6-a846-50b3c2ad8a89",
-    "keyword": "key_cb1b4501-7c0c-4466-8424-7e511c41ebb7",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "d457ded387542045e9bd35c6ecb9fea3",
-    "from": "5493812010781"
-  },
-  {
-    "ref": "3a544ffc-933b-491c-bda0-a80c4b3b76fe",
-    "keyword": null,
-    "answer": "La propiedad ubicada en el Country del Golf Nuevo ofrece una vista panorámica hacia la ciudad y los campos de limones",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493812010781",
-    "refSerialize": "24deb1602083a65ec5422103e4e65fa3"
-  },
-  {
-    "ref": "79e87f31-0a39-40b5-bc75-467fd98c2825",
-    "keyword": null,
-    "answer": "Esta ubicación privilegiada permite disfrutar de un entorno natural excepcional y una orientación hacia el Sur y Norte para aprovechar al máximo la luz solar durante todo el día",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493812010781",
-    "refSerialize": "3e4f29f95f59235280884d57f9a0c3da"
-  },
-  {
-    "ref": "fb59b0f2-d865-420f-81a7-78890d00727c",
-    "keyword": null,
-    "answer": "Además, el barrio está rodeado de una vegetación exuberante y un sector de bosque borde, brindando una sensación de tranquilidad y conexión con la naturaleza【14:0†source】.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "5493812010781",
-    "refSerialize": "8864e11e26818f317a2198a4587b5e5d"
+    "refSerialize": "a03d0672ee2363269252d855aec8445e"
   }
 ]

@@ -5,14 +5,11 @@ require('dotenv/config');
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
-const MockAdapter = require('@bot-whatsapp/database/json')
+const JsonFileAdapter = require('@bot-whatsapp/database/json')
 
 const run = require('./mensajes/index.js')
-//import { chatWithAssistant } from './mensajes/Assistant';
-//const chatWithAssistant = require('./mensajes/Assistant')
 const { chatWithAssistant } = require('./mensajes/Assistant.js');
 
-//const { chatWithAssistant } = require('./mensajes/Assistant.js');
 
 const flowWelcome = addKeyword(EVENTS.WELCOME)
 //    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
@@ -52,7 +49,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
 
 
 const main = async () => {
-    const adapterDB = new MockAdapter()
+    const adapterDB = new JsonFileAdapter()
     const adapterFlow = createFlow([flowPrincipal])
     const adapterProvider = createProvider(BaileysProvider)
 
