@@ -8,7 +8,8 @@ const openai = new OpenAI({
 });
 
 // Mapeo para almacenar los hilos de conversación de los usuarios
-const userThreads = {"5493812010781":"thread_tWAdefP1xDPko4qOoicTKhZj"};
+//const userThreads = {"5493812010781":"thread_tWAdefP1xDPko4qOoicTKhZj"};
+const userThreads = {};
 
 // Function to create a new thread
 async function createThread() {
@@ -22,22 +23,27 @@ async function createThread() {
 }
 
 // Function to get or create a thread for a user
-async function getOrCreateThread(userId) {
+async function getOrCreateThread(ctx) {
  
 
-  if (!userThreads[userId]) {
+  if (!userThreads[ctx.from]) {
     // Create a new thread if it doesn't exist
-    userThreads[userId] = await createThread();
+    userThreads[ctx.from] = await createThread();
+    ctx.key.remoteJid = userThreads[ctx.from];
   }
-  return userThreads[userId];
+  return userThreads[ctx.from];
 }
 
-async function chatWithAssistant(ctx) {
+async function chatWithAssistant(ctx, history) {
   // Verificar si el usuario ya tiene un hilo de conversación
 
   try {
-    const userId = ctx.from;
-    const threadId = await getOrCreateThread(userId);
+    const userId = ctx.from
+    const threadId = await getOrCreateThread(ctx);
+    ctx.remoteJid = threadId;
+    
+
+
     console.log(`Using thread ${threadId} for user ${userId}`);
     // Continue with your chat logic using the threadId
   

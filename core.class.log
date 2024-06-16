@@ -2,20 +2,38 @@
   key: {
     remoteJid: '5493812010781@s.whatsapp.net',
     fromMe: false,
-    id: 'B2DCE77BC21AC629D8',
+    id: 'BAA5213EFCEB6975D1',
     participant: undefined
   },
-  messageTimestamp: 1718503809,
+  messageTimestamp: 1718514567,
   pushName: 'Augusto Baralo',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: '23', contextInfo: [ContextInfo] },
+    extendedTextMessage: ExtendedTextMessage { text: 'asdf', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
   verifiedBizName: 'Augusto Baralo',
-  body: '23',
+  body: 'asdf',
   from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a296e5d0-086b-45b4-bc7d-6b9fb1064587',
+  keyword: 'key_91eaa1a0-e42b-4b97-8889-245c91502dc2',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'bdfd583e9097dc4afe158abe2c7942b7'
 }

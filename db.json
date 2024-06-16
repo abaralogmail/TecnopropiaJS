@@ -1,10 +1,1667 @@
 [
   {
-    "ref": "8cdf0972-b5e9-4009-a085-a74655b56837",
-    "keyword": "66fac4d9e424d68483c77e6fa76a19f5",
-    "answer": "23",
+    "ref": "e21bc29f-a148-4452-8c56-42195de50158",
+    "keyword": "79399a18a5321417e9a26cfbc90c2712",
+    "answer": "asdf",
     "options": {},
     "from": "5493812010781",
-    "refSerialize": "a03d0672ee2363269252d855aec8445e"
+    "refSerialize": "614e329e424508a622773f63da08fab7"
+  },
+  {
+    "ref": "ans_b9e12244-2f69-4fe2-a2a5-2e6a2d83761f",
+    "keyword": "key_46e07c86-6b18-42b5-b768-26e266ef2f73",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "2cb89858346204c8a8b76e3744b338b0",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "be4a8b5d-0c65-4db6-ad2b-88713429cc9c",
+    "keyword": null,
+    "answer": "¿En qué más puedo ayudarte hoy? ¡Estoy aquí para responder a tus preguntas!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9c941abaa1ca51ce0530ea421623f1ab"
+  },
+  {
+    "ref": "f508c07d-f6db-465d-83e3-4f4b95b9c9c9",
+    "keyword": "2cb89858346204c8a8b76e3744b338b0",
+    "answer": "2",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_835ff06e-e49b-4dd6-bca9-6e896b3d00e3",
+    "keyword": "key_81773f5b-9305-43e5-8b10-1146531cfb05",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9d6c1a517445fedaff865ce06931e83b",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "c7426d06-8f35-4c1b-a78c-bbcd227e6812",
+    "keyword": null,
+    "answer": "Si tienes alguna pregunta específica o necesitas información adicional, ¡no dudes en decírmelo! Estoy aquí para ayudarte en lo que necesites",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "026d625d4efef1e1c6735f6304a5ef43"
+  },
+  {
+    "ref": "2cccf03d-b363-47e9-a42b-53693e403898",
+    "keyword": null,
+    "answer": "¿Hay algo en lo que pueda asistirte respecto a propiedades, inversiones o alguna otra consulta? ¡Estoy a tu disposición!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "5abbffef86f7229d780b84ed04921c4b"
+  },
+  {
+    "ref": "210ba69f-7b1d-4d56-8f6d-5bbfa2ca4bc8",
+    "keyword": "9d6c1a517445fedaff865ce06931e83b",
+    "answer": "asdf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "614e329e424508a622773f63da08fab7"
+  },
+  {
+    "ref": "ans_835ff06e-e49b-4dd6-bca9-6e896b3d00e3",
+    "keyword": "key_81773f5b-9305-43e5-8b10-1146531cfb05",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "9d6c1a517445fedaff865ce06931e83b",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "8f1e466d-36a5-4d0a-bccf-5f80c86b9412",
+    "keyword": null,
+    "answer": "Si en algún momento necesitas ayuda o tienes alguna pregunta, ¡no dudes en volver! ¡Estoy aquí para asistirte en lo que necesites! ¡Que tengas un excelente día!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "313bf05294c5f4ab4e7a5f198851bf1f"
+  },
+  {
+    "ref": "1bef8acc-8b85-4aad-8755-71bd02fd4ed0",
+    "keyword": "9d6c1a517445fedaff865ce06931e83b",
+    "answer": "hogar",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "623833fd6bf3252df71d26f2e815f3ff"
+  },
+  {
+    "ref": "ans_ef56aeec-fec8-49d5-bb71-4d43485f6089",
+    "keyword": "key_bdc4d92f-fe44-408f-acac-e4c3216f00af",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b29b4735044b6a59d4ffa6b28dfd963c",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "1dbdf296-712f-4b95-99ed-d6dfa95496a1",
+    "keyword": null,
+    "answer": "Si estás buscando información sobre propiedades, terrenos, inversiones o cualquier otro tema relacionado con el hogar, ¡estaré encantado de ayudarte! ¿En qué aspecto específico sobre el hogar te gustaría obtener información o asistencia hoy? ¡Estoy aquí para responder a tus preguntas!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "4c8ec7036fb8cd550449d2826e8afcd4"
+  },
+  {
+    "ref": "73660642-49e8-4ec3-911e-517650ff3402",
+    "keyword": "b29b4735044b6a59d4ffa6b28dfd963c",
+    "answer": "agreagar",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "21bac68547329e3d8c4f25af85c2d9c8"
+  },
+  {
+    "ref": "ans_d98c19ad-2368-4da4-86ac-40ec8159e765",
+    "keyword": "key_7a7ba872-8914-4ae1-a4bd-89fffe1277f4",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1655cfb8d11c698c70b6d7063bda5f1d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ddf717e1-4274-4e26-9304-05382e6e4012",
+    "keyword": null,
+    "answer": "Si deseas agregar más detalles o tienes alguna pregunta específica, ¡por favor házmelo saber! Estoy aquí para ayudarte en lo que necesites",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "7e7924ff9b7e86cfd61429c580c31ab8"
+  },
+  {
+    "ref": "5826abfa-8293-4612-8275-a476e9f78579",
+    "keyword": null,
+    "answer": "¿En qué puedo asistirte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "4581148a1fc183149b36e8091a01be83"
+  },
+  {
+    "ref": "a14c3958-6a64-4336-b989-ff8ba12a3cc6",
+    "keyword": "1655cfb8d11c698c70b6d7063bda5f1d",
+    "answer": "hola nuevamente",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "6be6bf826ebd68e080087d564d6875c5"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "9fb516d9-f03f-427d-a39a-4b88bbeaec60",
+    "keyword": null,
+    "answer": "¡Hola de nuevo! ¿En qué puedo ayudarte hoy? ¡Estoy aquí para responder tus preguntas y brindarte la información que necesites!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "7e05fa0721ec61651fd85ca467f906bf"
+  },
+  {
+    "ref": "2c970fea-ba92-4607-846f-e54213bb9b74",
+    "keyword": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "answer": "puedes hacer un resumen de toda nuestra conversacion",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "a9bf74fcd36afb9c3d6ba7c154097637"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "78e2afb9-d51a-4269-9405-64ff2aba5459",
+    "keyword": null,
+    "answer": "Durante nuestra conversación, exploramos información sobre propiedades en Tucumán, específicamente a través de Tecnoprop",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "973703eaee69298b2559939637603949"
+  },
+  {
+    "ref": "ce4ff787-5345-40e4-ba04-9fba1eb8d5d4",
+    "keyword": null,
+    "answer": "Se destacaron propiedades como un terreno en Zona Churqui Tafí del Valle, un lote en el Country de Villa Nougues, y un terreno en el Country Terranova con vistas panorámicas hacia la ciudad",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "8d10ad2935b7cd8cd3f35f75efd6162f"
+  },
+  {
+    "ref": "f0230745-e4e6-44a2-9b78-5f2a74aea86d",
+    "keyword": null,
+    "answer": "Además, se mencionaron las opciones de inversión en diferentes ciudades de Argentina, como Buenos Aires, Córdoba, Rosario, Mendoza y Tucumán, con consideraciones sobre el potencial de retorno de la inversión y la estabilidad del mercado inmobiliario en cada una",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "0e303c59a782ede9a1dc7778f7bdd8c3"
+  },
+  {
+    "ref": "a69a0018-b1c0-41ec-8edb-b2cc0ed54639",
+    "keyword": null,
+    "answer": "Si necesitas más detalles o información adicional, ¡no dudes en decirme! ¿Hay algo más en lo que pueda ayudarte ahora?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "d8d1853c361cb898e11eece4f41f8e31"
+  },
+  {
+    "ref": "f3ecbda8-7685-4b41-95ce-5d2186be5d7d",
+    "keyword": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "answer": "cual es el precio de las  propiedades?",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "7bf5f57a2a9db9bcb928697997405be5"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "198dbdb9-b565-4d28-8f73-4e2d230d287f",
+    "keyword": null,
+    "answer": "Para proporcionarte información precisa sobre los precios de las propiedades específicas en Tucumán a través de Tecnoprop, necesitaría consultar los detalles de cada propiedad individualmente",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "52ea22964b9a0a41dfe4c9f7174cdb65"
+  },
+  {
+    "ref": "d910852a-02f9-4aaa-8d52-fd6b419bc382",
+    "keyword": null,
+    "answer": "¿Te gustaría que busque información detallada sobre los precios de ciertas propiedades en Tucumán a través de Tecnoprop? ¡Por favor, dime si hay alguna propiedad en particular que te interese para que pueda brindarte los precios correspondientes!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "5c51176dedc16ff46b9f7345e2f52986"
+  },
+  {
+    "ref": "40e47cec-5fc0-4abf-bb77-b6664793fc77",
+    "keyword": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "answer": "tafí",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "395425650cd23ad6aae321e9ec1bf4b0"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "8ac651bc-0602-4ea3-a116-1aad64e2a742",
+    "keyword": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "answer": "tafí del valle",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "1b631dd1275917614d57455e6d984426"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "23d75b80-64e9-422f-96e7-19a3f751fce0",
+    "keyword": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "answer": "la propiedad en Tafí",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "862170028543887da2c4ad52e0452a69"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_f96a872e-aafe-40f1-a174-4cade806b8bb",
+    "keyword": "key_c939ddc1-51a4-4d2c-aaf5-ccc4540f0405",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "9447df6e-5de1-47c6-8181-d3e55c6900b4",
+    "keyword": null,
+    "answer": "En Tafí del Valle, Tucumán, hay una propiedad disponible que consiste en un terreno de 3600m2 en la zona de Churqui",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "cb3a2c511875d229054067e208fb7aab"
+  },
+  {
+    "ref": "a9f93c5a-47a5-49cf-bb47-32b40105615f",
+    "keyword": null,
+    "answer": "El precio de esta propiedad es de 60.000 USD, con un valor de $20 USD por metro cuadrado",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "7ea2b4a8c793ef282eef86b15cd71f46"
+  },
+  {
+    "ref": "b9eb7f51-72d9-4614-ac5b-50f538602ecf",
+    "keyword": null,
+    "answer": "Esta propiedad cuenta con escrituras al día y está lista para transferir",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c1774fb1aa5bd613b805a6140baf387f"
+  },
+  {
+    "ref": "ad15bdd5-3c0e-4e92-bf18-27b3e7847f27",
+    "keyword": null,
+    "answer": "Es una excelente oportunidad para aquellos que buscan un terreno en una ubicación con vistas panorámicas y tranquilidad en Tafí del Valle",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "7e65643d92f39f9920fa5c58d2d848c3"
+  },
+  {
+    "ref": "dd1d2f50-9a27-4a53-88f3-1dccf0da814d",
+    "keyword": null,
+    "answer": "Si deseas más detalles sobre esta propiedad o si tienes alguna otra pregunta, ¡no dudes en decírmelo!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c7665d6df15bf8d50fe26f2b972fa553"
+  },
+  {
+    "ref": "76f762a8-7a1e-418a-99f5-d31ec322c293",
+    "keyword": "8b6e4b7baf9b4d1982e0c4049cef3348",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_4f5c9689-025e-46d8-9f3e-1cda5c87c8f4",
+    "keyword": "key_566fd448-eeb4-428c-8820-246e39d1d76b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "dfd20d233503d35f3a7975dbba191b29",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "f535afed-01af-4528-a696-8f15b52dcc9d",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo ayudarte hoy? ¡Estoy aquí para responder tus preguntas!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "d1064b385ba3c302874b51e1b3cb8a77"
+  },
+  {
+    "ref": "179aac65-a0c8-4a79-9c16-9738afdead1b",
+    "keyword": "dfd20d233503d35f3a7975dbba191b29",
+    "answer": "ventas",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "8daba905ac8b7cccbc68d4de959afa5f"
+  },
+  {
+    "ref": "ans_4f5c9689-025e-46d8-9f3e-1cda5c87c8f4",
+    "keyword": "key_566fd448-eeb4-428c-8820-246e39d1d76b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "dfd20d233503d35f3a7975dbba191b29",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "cf3f009a-7060-4802-80e7-4420eff9f110",
+    "keyword": null,
+    "answer": "Si estás interesado en información sobre ventas de propiedades, terrenos u otros tipos de activos, ¡házmelo saber! ¿Hay algo específico sobre ventas en lo que te gustaría obtener más detalles? ¡Estoy aquí para ayudarte!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "6b5002066b82c0a0d63593e6aaff81de"
+  },
+  {
+    "ref": "b4e01695-2ffa-4480-9858-f245e7ef0523",
+    "keyword": "dfd20d233503d35f3a7975dbba191b29",
+    "answer": "ctx.remoteJID",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "dbc978f077e9202e2cd0bc2e93139eb0"
+  },
+  {
+    "ref": "ans_518b9b4a-90af-4c03-8d91-3228f4914e1a",
+    "keyword": "key_b0bd54f9-bc58-4b2c-a7bc-c5ac20df0b5b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "70d11ede88850b365f4c23a06b3b8ec8",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "2c72f5d9-45bc-4cbe-9d95-4ad9844218a5",
+    "keyword": null,
+    "answer": "Parece que has ingresado un texto que parece ser una consulta técnica",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "a67d7712d2839599efceb8a813944e24"
+  },
+  {
+    "ref": "d21eee77-bd6d-47cb-a025-d881bfceca1d",
+    "keyword": null,
+    "answer": "¿Hay algo específico en lo que necesitas ayuda o información? Estoy aquí para asistirte en lo que necesites.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9f0ca06f14a4974ad5f2e6d8ca39165c"
+  },
+  {
+    "ref": "331c9e97-dd05-4f57-8c2c-a3ec735052eb",
+    "keyword": "70d11ede88850b365f4c23a06b3b8ec8",
+    "answer": "probando",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "423c57fa60e614be8b167122539f0279"
+  },
+  {
+    "ref": "ans_ecf42f68-e851-4a05-8674-b9df8db49e8f",
+    "keyword": "key_776a0536-a1c6-46ad-804b-a4b9f01bd878",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "eff1c7837f36496706d61b0096e82418",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "d94d0061-3fd1-4a29-9b66-a3ba086d974a",
+    "keyword": null,
+    "answer": "Los archivos que has subido contienen información sobre diferentes terrenos en venta con características específicas y detalles sobre sus ubicaciones y amenidades",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c58c2cd96fdc0fea3a2f34c1fe88619e"
+  },
+  {
+    "ref": "7a4d1bfd-c9b5-4327-920b-75040f84d142",
+    "keyword": null,
+    "answer": "¿Cómo puedo ayudarte específicamente con esta información?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9b836c66c590b03e9842a79df476d1fb"
+  },
+  {
+    "ref": "36143ff3-de7c-4aa1-9e09-f03d4ff23143",
+    "keyword": "eff1c7837f36496706d61b0096e82418",
+    "answer": "otra prueba",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "ddb9d9057146386c417b1dfdd7d7b121"
+  },
+  {
+    "ref": "ans_ecf42f68-e851-4a05-8674-b9df8db49e8f",
+    "keyword": "key_776a0536-a1c6-46ad-804b-a4b9f01bd878",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "eff1c7837f36496706d61b0096e82418",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "2a65561b-4090-446c-9759-35a7a111f5dd",
+    "keyword": null,
+    "answer": "Los archivos que has subido contienen información detallada sobre diversos lotes en venta en diferentes country clubs",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "f3a7e63969f578d0d50d476cb3c2e299"
+  },
+  {
+    "ref": "9162a7d1-0eb5-47b9-9fc5-509fc05734a8",
+    "keyword": null,
+    "answer": "Cada lote tiene características únicas, amenidades exclusivas y detalles sobre su ubicación privilegiada",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "7352b66999b5701d1877f309e86660e9"
+  },
+  {
+    "ref": "a79fa89f-245f-4f08-9d2f-72b895a792cf",
+    "keyword": null,
+    "answer": "¿Cómo puedo ayudarte con esta información específicamente?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "89267256caa2b457fb0eb765cfb908cb"
+  },
+  {
+    "ref": "c39268f0-b2e7-4c6d-88bf-78261ff82fd2",
+    "keyword": "eff1c7837f36496706d61b0096e82418",
+    "answer": "estoy haciendo pruebas, contesta breve",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "b1dbf2af5b079dd3e8670171aa06b384"
+  },
+  {
+    "ref": "ans_ecf42f68-e851-4a05-8674-b9df8db49e8f",
+    "keyword": "key_776a0536-a1c6-46ad-804b-a4b9f01bd878",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "eff1c7837f36496706d61b0096e82418",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "7cf7faa3-bfbb-4d84-baea-ef3691731796",
+    "keyword": "eff1c7837f36496706d61b0096e82418",
+    "answer": "contesta breve",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "796ebdb2919e3ba01d49bf7633c8f9ee"
+  },
+  {
+    "ref": "ans_fab9107f-00e3-4d64-92f0-1c7200927459",
+    "keyword": "key_4e31abd3-8a15-4376-93f2-d15ab5733121",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "6226c441b9363e00851831d005838ac9",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "6b002f0e-b06a-4e69-babf-f799e83ef8d6",
+    "keyword": "6226c441b9363e00851831d005838ac9",
+    "answer": "contesta breve",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "796ebdb2919e3ba01d49bf7633c8f9ee"
+  },
+  {
+    "ref": "ans_cff680c8-14d1-4530-9ec6-0583f2490ce4",
+    "keyword": "key_57fb9b3e-a764-47d4-94a0-464518ffeb8b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "633f8ebd71d1b3548f8405427748f506",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "6148390c-179b-432d-a77a-d00526f26f3d",
+    "keyword": null,
+    "answer": "¿En qué puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "d5c8cd36cb8f2cda81c7d76d6e922aee"
+  },
+  {
+    "ref": "051a5cc3-e5ba-4b91-aa3a-9c8b31efb352",
+    "keyword": "633f8ebd71d1b3548f8405427748f506",
+    "answer": "asdf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "614e329e424508a622773f63da08fab7"
+  },
+  {
+    "ref": "ans_92c197b1-21b6-4471-9a4c-a4c843b9070a",
+    "keyword": "key_0e23da5e-6cad-4ab2-b97e-7207023d5f50",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "2d05a48e2d3adf63d927ef0d1abe4748",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "efccb21f-f7a1-415c-a28a-f2bba113012c",
+    "keyword": "2d05a48e2d3adf63d927ef0d1abe4748",
+    "answer": "asf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "5e792c9042f953bb6bb136d22f088e5d"
+  },
+  {
+    "ref": "ans_0b784d1a-18f8-4d16-9f3f-cb71851ebe9e",
+    "keyword": "key_8699e70a-d2f0-4a1a-b79c-adb904ef192f",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "49947924508cb725c231e2fea204fa00",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "bc120989-87c6-4b4e-b304-429dcbdaf4b8",
+    "keyword": "49947924508cb725c231e2fea204fa00",
+    "answer": "asf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "5e792c9042f953bb6bb136d22f088e5d"
+  },
+  {
+    "ref": "ans_3bb43a06-5e60-46e3-af19-d86f1d4f01d2",
+    "keyword": "key_f40b20a4-7e7a-4dcf-a8a3-96906eb77872",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a01cdef83b0768fe382721a0d64c973e",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "65e5b20f-f4d1-4c9b-8428-8bb1a19b5ca8",
+    "keyword": null,
+    "answer": "I found information about various properties available for sale with different characteristics such as size, amenities, services, and locations",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "8149fa68040c07c0b487c4e5a2c165bf"
+  },
+  {
+    "ref": "63ad2816-1949-4007-a06d-e11b47cb4efc",
+    "keyword": null,
+    "answer": "Here are some highlights:\n\n1. Terranova - Lote Central: Offers incredible views in a natural environment, with amenities like a soccer field, water tanks, and 24-hour security",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "983bbce9e19396dd0b18e7edd3edf4e3"
+  },
+  {
+    "ref": "e716843b-082e-4d74-87c5-4627313647ad",
+    "keyword": null,
+    "answer": "Ideal for building a dream house in a privileged natural setting【4:0†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "187d3ec690378242e04f1a92e2bc0606"
+  },
+  {
+    "ref": "bac203b2-7580-498a-a677-2bab41a1f452",
+    "keyword": null,
+    "answer": "2. Country Las Limas - Lote en Venta: Features a 364m2 lot with available services, amenities like a large headquarters with an events room, and a pool",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "8b35a3294874f3049ce71f7187341776"
+  },
+  {
+    "ref": "953e6fea-35b0-42c4-932c-59d212de4246",
+    "keyword": null,
+    "answer": "It is centrally located near The Point and Viento Sur【4:1†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "74ca64f6bd3d095eb5d07adba9266cd8"
+  },
+  {
+    "ref": "9e7cfd2a-a052-43eb-b79a-e20ed61d3a75",
+    "keyword": null,
+    "answer": "3. Country San Pablo Etapa 1: Presents a spacious 815m2 lot with access to various amenities like giant golf courses, tennis courts, event halls, and 24-hour security【4:2†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "5537031ea0b0c49d3470d2143035b756"
+  },
+  {
+    "ref": "5adcf593-0d29-41df-9025-79c441bd5075",
+    "keyword": null,
+    "answer": "4. Terreno en venta de 3600m2 - Zona Churqui Tafi del Valle: Offers a 3600m2 land with lovely views in a tranquil area ideal for building a dream home【4:3†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "18ae12f0096bcda8c74e24d3372bb93e"
+  },
+  {
+    "ref": "baf3d112-89e8-45f3-865a-81bc1df3b8e7",
+    "keyword": null,
+    "answer": "5. Lote en Country de Villa Nougues: Features a 1600m2 lot in Villa Nougues with stunning views, modern amenities, security, and convenient access to nearby attractions and services【4:4†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9e63155270abe3e44304a71a0af99801"
+  },
+  {
+    "ref": "0b953c00-80d2-43f3-9a91-e4943306e42d",
+    "keyword": null,
+    "answer": "These are just a few of the properties available for sale, each with unique characteristics and offerings.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "eee60c3252b01a9a7071b10f2a77b6e3"
+  },
+  {
+    "ref": "b2931d67-b5e5-436e-a89e-ce3de9b509d4",
+    "keyword": "a01cdef83b0768fe382721a0d64c973e",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_cb898e97-20f3-4c91-b378-6b92bd5f07b0",
+    "keyword": "key_91b73acb-e91b-4984-9909-4475bbc28c62",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "998cf3df69b42b9ef7ba42bf6d70cd33",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "be377bd3-e8d8-4df4-922c-213da8ed5de5",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1b4031b59fda57c445fa2b1e23b98e5d"
+  },
+  {
+    "ref": "02e56e7b-ff88-46fc-a91d-6e35338b6d4e",
+    "keyword": "998cf3df69b42b9ef7ba42bf6d70cd33",
+    "answer": "asdf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "614e329e424508a622773f63da08fab7"
+  },
+  {
+    "ref": "ans_f1eed48a-07c9-4334-9329-cd7c569d5388",
+    "keyword": "key_d341c288-faed-4eea-85fd-19ec02fb45f1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "e14f9b1ee9bf5d2ebd4327d862924333",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "afa1b9ab-1092-4eca-a757-46ab8d26df87",
+    "keyword": null,
+    "answer": "No se encontró información relevante en los archivos cargados relacionada con \"asdf\"",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3aaf2d17407c98c3a7701f08c54ade8b"
+  },
+  {
+    "ref": "18983086-f8f9-4c81-94d3-c15adef4b99c",
+    "keyword": null,
+    "answer": "¿En qué más puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "a9900caa1b4a376e9de39e2a3beee709"
+  },
+  {
+    "ref": "b8ae5c71-e77e-4b36-9a11-eb41b7706c19",
+    "keyword": "e14f9b1ee9bf5d2ebd4327d862924333",
+    "answer": "asdf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "614e329e424508a622773f63da08fab7"
+  },
+  {
+    "ref": "ans_e219ab21-1fda-4183-b7ca-621de0b92cc5",
+    "keyword": "key_94ec0760-d259-4595-b0c9-07295feca771",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a681163eb1b2dd195db9cf00246875be",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "a3282172-7ead-4e03-bc2b-fa01c2ccfb6e",
+    "keyword": null,
+    "answer": "I found information about various properties for sale in different locations",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "e2d8948d1abe864c4c0ada3d1cf2fdd8"
+  },
+  {
+    "ref": "8c38b897-9e77-44e1-b4a1-ee2b2600fac1",
+    "keyword": null,
+    "answer": "Here are a few options available:\n\n1. **Country Santa Barbara Hills:**\n   - Size: 364m2\n   - Location: New Country Santa Bárbara Hills\n   - Features: Ready-to-build land with exclusive amenities like a football field, 24-hour security, and a multipurpose clubhouse",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "268aa6bd6a30ec02c18ae03b0aeafa69"
+  },
+  {
+    "ref": "0cd3ac85-4b0c-491d-8e53-dd5eba7a5b3d",
+    "keyword": null,
+    "answer": "- Opportunity for customization and investment in the real estate market",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "4de92f83bb65ff93a9632c674b3b6cd2"
+  },
+  {
+    "ref": "30434853-13f8-4073-af8b-f357d21b6a80",
+    "keyword": null,
+    "answer": "- Contact for more information and to start the process of owning a home in Santa Bárbara Hills",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "6c89261d05e3257e12a18f8886db8587"
+  },
+  {
+    "ref": "729ad9f2-43b0-4d80-a777-4a7e2b2dc502",
+    "keyword": null,
+    "answer": "2. **Zona Churqui Tafi del Valle:**\n   - Size: 3600m2\n   - Features: Mountainous area, serene environment, perfect for enjoying the view and tranquility",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c170301424b40b8844b2dc55db59225e"
+  },
+  {
+    "ref": "f8b2725c-1a87-4100-b196-37797b180827",
+    "keyword": null,
+    "answer": "- Price: $60,000 USD ($20 USD per m2)\n   - Accepting offers and vehicles for purchase",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "0e6c0890bcc45b7d483fbe03259ef819"
+  },
+  {
+    "ref": "c6165aea-efea-42cb-960f-e81d14f10e52",
+    "keyword": null,
+    "answer": "- Contact for more details and to schedule a visit",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "f56dc2552ac8476a32ca9d9d9257f283"
+  },
+  {
+    "ref": "3bee8896-9826-46d9-8de2-56ceab8b102b",
+    "keyword": null,
+    "answer": "3. **Country San Pablo Etapa 1:**\n   - Spacious land of 815m2 in a central position with access from both sides",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "7680d0298f4829460d1f25f637dc353c"
+  },
+  {
+    "ref": "7d41f7d1-ce62-437a-9717-34d3dcfeda49",
+    "keyword": null,
+    "answer": "- Various amenities available such as giant golf courses and tennis courts",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "61329d604e3c1dd33a2a97e2ee4b4466"
+  },
+  {
+    "ref": "70a8fbcf-fb51-4a3c-ac6a-80829ff557f7",
+    "keyword": null,
+    "answer": "- Security, events hall, 24-hour security, and more",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "2c017045e894fc59de9801f2ccaf3cad"
+  },
+  {
+    "ref": "6cccedf8-aebc-41ed-952b-43d6109f6586",
+    "keyword": null,
+    "answer": "- Price: $90,000 USD\n   - Ideal for building a home in a exceptional environment",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "b80d37db32b9729c6a49cb6a0e455996"
+  },
+  {
+    "ref": "2dabc72a-9043-4837-b507-f913459843a9",
+    "keyword": null,
+    "answer": "4. **Country Alto Verde III:**\n   - Central land of 440m2 in a prestigious closed neighborhood",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "a2e9edc50dd386400b1f940ab244b1c4"
+  },
+  {
+    "ref": "bdf44a0f-ecee-4484-b57e-de43abbd3a4f",
+    "keyword": null,
+    "answer": "- Offers tranquility and security in an exclusive environment",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3ab60a3c4ff53c9990f2de28d0bb1d2d"
+  },
+  {
+    "ref": "71f9fbb9-f34d-489c-8f4f-a5a55be1beac",
+    "keyword": null,
+    "answer": "- Great opportunity to invest in the future",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "d74d6dd610ad821b15b5464c6e530216"
+  },
+  {
+    "ref": "2e14d366-1b7a-419a-85f7-9a37cefce959",
+    "keyword": null,
+    "answer": "- Contact for more details and secure your place in Alto Verde III",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "e8134dd504c8a1a93d06b2d4ef0cabcc"
+  },
+  {
+    "ref": "dc193c89-212a-4fdd-81e9-b3f9ab77fad9",
+    "keyword": null,
+    "answer": "5. **Country del Golf Nuevo:**\n   - House with 660m2 of land in a private and secure setting of Country del Golf Nuevo",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9e453dc641a3480cf33b08f6b5f660d9"
+  },
+  {
+    "ref": "73b6514b-8efb-4e93-bd78-d689da3d8348",
+    "keyword": null,
+    "answer": "- Includes high-end features, three bedrooms on the upper floor, service room with bath, and more amenities",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "e58ce953b6a11de9d33a5d9eebdcefc1"
+  },
+  {
+    "ref": "9695826c-cce4-4d60-896e-75e6296d2145",
+    "keyword": null,
+    "answer": "- The neighborhood offers top-notch amenities like a world-class golf course, tennis courts, pool, and social club",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1c13bfb6901756a2b90e01c9a9967eab"
+  },
+  {
+    "ref": "fc858ace-5d8e-473f-8afe-ac9e1a022fe4",
+    "keyword": null,
+    "answer": "If you are interested in more details about any specific property or have any questions, feel free to ask!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3468e228245e28e6691087666c2d17d5"
+  },
+  {
+    "ref": "79c2888b-fd2e-48e1-af12-8adf4953bbdd",
+    "keyword": "a681163eb1b2dd195db9cf00246875be",
+    "answer": "otro thread",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "eea57578589ca53b3d368185d6b381d6"
+  },
+  {
+    "ref": "ans_e219ab21-1fda-4183-b7ca-621de0b92cc5",
+    "keyword": "key_94ec0760-d259-4595-b0c9-07295feca771",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a681163eb1b2dd195db9cf00246875be",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "12c0aef5-2f45-4aa7-aa66-d31afdbdc82a",
+    "keyword": null,
+    "answer": "Feel free to provide more details or ask any specific questions related to the properties or any other topic you'd like assistance with",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9d2956fbbb08bb66d8aa35f41a650884"
+  },
+  {
+    "ref": "724ff9db-4550-49a8-ad9e-f183e9c8424a",
+    "keyword": null,
+    "answer": "Just let me know how I can help you further!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c8591bbbbb919cb5514826d72540833c"
+  },
+  {
+    "ref": "324cde4c-2d52-4685-9d90-c96a5f3e11cc",
+    "keyword": "a681163eb1b2dd195db9cf00246875be",
+    "answer": "en español por favor",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "36ff4530242efe7e69679d171da0266a"
+  },
+  {
+    "ref": "ans_e219ab21-1fda-4183-b7ca-621de0b92cc5",
+    "keyword": "key_94ec0760-d259-4595-b0c9-07295feca771",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a681163eb1b2dd195db9cf00246875be",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "d96d60ba-87f8-48e8-bf54-d7fac4ab4eaf",
+    "keyword": null,
+    "answer": "¡Claro! Si necesitas más información sobre las propiedades o tienes alguna pregunta específica, ¡no dudes en decírmelo! Estoy aquí para ayudarte en lo que necesites",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "f540a5fb4ef096e52e0d77edde7b6966"
+  },
+  {
+    "ref": "4890011d-b96c-4445-8afa-99d94fd1afbf",
+    "keyword": null,
+    "answer": "¡Adelante con tus consultas!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "61dba8d96d6d4ec0d681a1c67f208fda"
+  },
+  {
+    "ref": "5e7cfeb2-2ebe-4413-83ff-906dd75deead",
+    "keyword": "a681163eb1b2dd195db9cf00246875be",
+    "answer": "asdf",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "614e329e424508a622773f63da08fab7"
+  },
+  {
+    "ref": "ans_a296e5d0-086b-45b4-bc7d-6b9fb1064587",
+    "keyword": "key_91eaa1a0-e42b-4b97-8889-245c91502dc2",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "bdfd583e9097dc4afe158abe2c7942b7",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "c05a86fd-03cf-4bab-9d42-bb6878146bce",
+    "keyword": null,
+    "answer": "Se han encontrado varios listados de terrenos y propiedades en diferentes ubicaciones, con distintas características y amenidades disponibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "420e2d361b83e225c0fcb99803239a5a"
+  },
+  {
+    "ref": "b33c9f6e-4ddb-40e0-9e25-abd42bef845a",
+    "keyword": null,
+    "answer": "Estos listados incluyen información detallada sobre los terrenos en venta, como el tamaño, ubicación, amenidades disponibles y precios",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "b4a2fc9ec9b8fbb2edd08a3db6c48b9c"
+  },
+  {
+    "ref": "fbaf289b-5f1e-431d-89a2-098cbdbfc5ea",
+    "keyword": null,
+    "answer": "Si estás interesado en obtener más detalles sobre alguna de estas propiedades en particular, por favor házmelo saber para proporcionarte información adicional.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "634f3e8d95b03d7c9146aea71a398cfe"
   }
 ]
