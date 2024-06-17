@@ -44,7 +44,7 @@ async function chatWithAssistant(ctx, history) {
     
 
 
-    console.log(`Using thread ${threadId} for user ${userId}`);
+  //  console.log(`Using thread ${threadId} for user ${userId}`);
     // Continue with your chat logic using the threadId
   
  
@@ -76,9 +76,8 @@ async function chatWithAssistant(ctx, history) {
 
           // Check for failed, cancelled, or expired status
           if (["failed", "cancelled", "expired"].includes(runStatus.status)) {
-            console.log(
-              `Run status is '${runStatus.status}'. Unable to complete the request.`
-            );
+ //           console.log(
+//              `Run status is '${runStatus.status}'. Unable to complete the request.`);
             break; // Exit the loop if the status indicates a failure or cancellation
           }
         }

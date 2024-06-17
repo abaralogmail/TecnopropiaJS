@@ -35,9 +35,9 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
                 role: 'assistant',
                 content: largeResponse
             })
-            console.log('Nuevo historial:', newHistory);
+        //    console.log('Nuevo historial:', newHistory);
             await state.update({ history: newHistory })
-            console.log('Estado actualizado después de procesar el mensaje:', state.getMyState());
+      //      console.log('Estado actualizado después de procesar el mensaje:', state.getMyState());
 
 
         } catch (err) {
