@@ -34,7 +34,7 @@ Dockerfile
 .dockerignore
 
 # Excluye los archivos de editor
-#.vscode/
+.vscode/
 #.idea/
 
 # Excluye los archivos de compilación

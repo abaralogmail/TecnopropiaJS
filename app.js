@@ -45,9 +45,6 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
         }
     })
 
-    
-
-
 const main = async () => {
     //const adapterDB = new JsonFileAdapter()
     const adapterDB = new JsonFileAdapter({ pathFile: './db.json' })
