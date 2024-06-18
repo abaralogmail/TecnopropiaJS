@@ -1,0 +1,42 @@
+# Excluye el directorio node_modules
+node_modules/
+
+# Excluye el archivo de base de datos
+db.json
+
+# Excluye los archivos de configuración local
+.env
+.env.*
+
+# Excluye los archivos de logs
+*.log
+
+# Excluye los archivos de caché
+.cache/
+.npm/
+
+# Excluye los archivos de depuración
+*.tsbuildinfo
+*.map
+
+# Excluye los archivos de pruebas
+__tests__/
+test/
+tests/
+coverage/
+
+# Excluye los archivos de control de versiones
+.git/
+.gitignore
+
+# Excluye los archivos de Docker
+Dockerfile
+.dockerignore
+
+# Excluye los archivos de editor
+#.vscode/
+#.idea/
+
+# Excluye los archivos de compilación
+#dist/
+#build/
