@@ -20,7 +20,6 @@ EXPOSE 3000
 
 # Define la variable de entorno para la clave API de OpenAI
 ENV OPENAI_API_KEY=${OPENAI_API_KEY}
-
 # Define la variable de entorno para el ID del asistente
 ENV ASSISTANT_ID=${ASSISTANT_ID}
 
