@@ -7,6 +7,36 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
 const run = require('./mensajes/index.js')
 const { chatWithAssistant } = require('./mensajes/Assistant.js');
 
+const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
+    [
+        '🙌 Aquí encontras un ejemplo rapido',
+        'https://bot-whatsapp.netlify.app/docs/example/',
+        '\n*2* Para siguiente paso.',
+    ],
+    null,
+    null,
+    [flowSecundario]
+)
+
+const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
+    [
+        '🚀 Puedes aportar tu granito de arena a este proyecto',
+        '[*opencollective*] https://opencollective.com/bot-whatsapp',
+        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
+        '[*patreon*] https://www.patreon.com/leifermendez',
+        '\n*2* Para siguiente paso.',
+    ],
+    null,
+    null,
+    [flowSecundario]
+)
+
+const flowDiscord = addKeyword(['discord']).addAnswer(
+    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
+    null,
+    null,
+    [flowSecundario]
+)
 
 const flowWelcome = addKeyword(EVENTS.WELCOME)
 //    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
