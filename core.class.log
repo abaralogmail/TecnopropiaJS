@@ -1,0 +1,393 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: 'DF9C5D5E459E95EF45',
+    participant: undefined
+  },
+  messageTimestamp: 1720391278,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: '32100A88974F33DD2F',
+    participant: undefined
+  },
+  messageTimestamp: 1720391291,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'operador',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'operador',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a31b784f-0ace-4e22-b1f8-e1ec046b886f',
+  keyword: 'key_39ead62c-3692-4dea-899b-b8e5b629fa30',
+  answer: 'El asistente virtual ha sido desactivado. Para reactivarlo, escribe "asistente".',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0f6721d303acc291d6501d433b5a2df8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_89f07790-8e37-496f-9e15-1480156b6f0f',
+  keyword: 'ans_a31b784f-0ace-4e22-b1f8-e1ec046b886f',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1252ce7022c1ffbb855c098ce9bb5046'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: 'D2E3529D55F80A50A6',
+    participant: undefined
+  },
+  messageTimestamp: 1720391296,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: '420C39300874A02A6A',
+    participant: undefined
+  },
+  messageTimestamp: 1720391299,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'como estas?',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'como estas?',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: 'CBE1D661E9BADB8E2A',
+    participant: undefined
+  },
+  messageTimestamp: 1720404448,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: '7B78EB80DA3D9E757A',
+    participant: undefined
+  },
+  messageTimestamp: 1720404487,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'asistente',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'asistente',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cd85e4c7-3fbf-4385-9392-79beae50a398',
+  keyword: 'key_218f1161-fbe8-46e5-8df5-d16920c0c04e',
+  answer: 'El asistente virtual ha sido reactivado.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'eb21c88d1d9486c0f654d912e736e3ef'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1ad0d899-f446-40c5-abfa-bb67650e3614',
+  keyword: 'ans_cd85e4c7-3fbf-4385-9392-79beae50a398',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '7c4deb4ed6f585c39d2a207c9adc4df8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: 'AFE8E6005A33ED7AF1',
+    participant: undefined
+  },
+  messageTimestamp: 1720404570,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: '4D36F03DE2298E9B31',
+    participant: undefined
+  },
+  messageTimestamp: 1720404594,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'propiedades',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'propiedades',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493812010781@s.whatsapp.net',
+    fromMe: false,
+    id: 'C9A15F783F646FCEB8',
+    participant: undefined
+  },
+  messageTimestamp: 1720404625,
+  pushName: 'Augusto Baralo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'cuales son todas las propiedades',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cuales son todas las propiedades',
+  from: '5493812010781'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f',
+  keyword: 'key_481987e5-2365-4895-90df-f430d8874565',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'f83db790c4aff7d9902fb1770fdd3454'
+}

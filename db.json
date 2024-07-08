@@ -2270,5 +2270,1609 @@
     },
     "from": "5493812010781",
     "refSerialize": "d5c8cd36cb8f2cda81c7d76d6e922aee"
+  },
+  {
+    "ref": "f81009f4-b919-46d7-9696-3a08b4361747",
+    "keyword": "e32f2045a1e19bfb83c332bf91ad669f",
+    "answer": "Estas?",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "0dbfeed342ccf7b7f489c9c7358fd676"
+  },
+  {
+    "ref": "ans_898174e3-2f06-48f7-a199-75476770634d",
+    "keyword": "key_074728e3-4e9f-4617-bb07-bb56ddf123a9",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "853145b31dee5322c2ed6e90cb3e2f2c",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "bece3162-ab80-46db-875b-368a0a787daa",
+    "keyword": "853145b31dee5322c2ed6e90cb3e2f2c",
+    "answer": "Estas",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "660a69c356defa8bd15fd824d5edabcf"
+  },
+  {
+    "ref": "ans_51fde59b-30b8-4434-8ae9-a75779f0a05e",
+    "keyword": "key_75de35f4-91b2-41c4-bee4-35f977091a8f",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e5213768f5294f8c8ec1b5749e268f0",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "f21179da-71f4-42c3-bed7-e6a84d306bea",
+    "keyword": "3e5213768f5294f8c8ec1b5749e268f0",
+    "answer": "Estas",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "660a69c356defa8bd15fd824d5edabcf"
+  },
+  {
+    "ref": "ans_51fde59b-30b8-4434-8ae9-a75779f0a05e",
+    "keyword": "key_75de35f4-91b2-41c4-bee4-35f977091a8f",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e5213768f5294f8c8ec1b5749e268f0",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "a1f08d58-2a30-4ccf-8821-9e86d836aafc",
+    "keyword": "3e5213768f5294f8c8ec1b5749e268f0",
+    "answer": "Estas",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "660a69c356defa8bd15fd824d5edabcf"
+  },
+  {
+    "ref": "ans_e57db7a6-380b-48e2-b6c2-cc5a9fa1a332",
+    "keyword": "key_529f9611-d470-49a9-914a-b93a25e72c49",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "aab995151cf09659ffa6b7a5078c7119",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "18b57e6e-d30e-4c6f-96b6-616405b49dfc",
+    "keyword": null,
+    "answer": "Se han encontrado varios listados de propiedades en los archivos proporcionados",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "af8a3cd6b69b3d1cfa297d1031c2e038"
+  },
+  {
+    "ref": "bae17c66-5016-4505-8536-763b739fd0da",
+    "keyword": null,
+    "answer": "Algunas de las propiedades disponibles incluyen:\n\n1. Terreno en Country Santa Bárbara Hills:\n   - Tamaño del terreno: 364m2.\n   - Ubicación privilegiada en el nuevo Country Santa Bárbara Hills",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "8d82bab90b8172947639b102894980bf"
+  },
+  {
+    "ref": "df2f2a1d-2421-4d87-b15a-37738b93240a",
+    "keyword": null,
+    "answer": "- Amenidades exclusivas como cancha de fútbol, seguridad las 24 horas y pileta【4:0†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "ecfd269f0484f84c10a33f28290d7e12"
+  },
+  {
+    "ref": "f9e74314-40e3-40e1-b1b9-93ce186ad8ab",
+    "keyword": null,
+    "answer": "2. Terreno en Zona Churqui Tafi del Valle:\n   - Terreno de 3600m2 en zona con casas turísticas ya construidas",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "f8d4d1c7e15722435f058a9f60fe5c4d"
+  },
+  {
+    "ref": "7caa7293-11cc-49ba-89cd-21aa75e4d4f6",
+    "keyword": null,
+    "answer": "- Escrituras al día y listo para transferir",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "08084457910f0d0e7abf063d06fbe6d9"
+  },
+  {
+    "ref": "10967c52-3dd9-4e1d-9b5a-89fbf1fe85f9",
+    "keyword": null,
+    "answer": "- Oportunidad de aprovechar la vista y tranquilidad del Valle",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "e1817068ab5cfe6ce3194d6664ed6005"
+  },
+  {
+    "ref": "a6809e40-b918-4692-9d53-54c87101f624",
+    "keyword": null,
+    "answer": "- Precio: 60,000 USD【4:0†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "ce5df879b2c70b6e2eb9bcd9dd3dd700"
+  },
+  {
+    "ref": "1cdc015f-c4ce-43b0-b108-e42c6a79ebed",
+    "keyword": null,
+    "answer": "3. Terreno en Country San Pablo Etapa 1:\n   - Terreno espacioso de 815m2 en posición central con salida de ambos lados",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "26c5ba5efce73852140865bb0ed4f499"
+  },
+  {
+    "ref": "f75542bd-003c-4f2e-8175-c4f90e9bb349",
+    "keyword": null,
+    "answer": "- Todos los servicios disponibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1800e2caeffe4d1813bb286931ff7471"
+  },
+  {
+    "ref": "4a39f74f-a05d-4564-a2e6-6771823bccf2",
+    "keyword": null,
+    "answer": "- Amplia variedad de amenidades como canchas de golf y tenis, salones de eventos y seguridad las 24 horas",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "a52e75fe902cc46c78608f8d5f4546ea"
+  },
+  {
+    "ref": "80dc1765-689d-418e-90bd-7a0f33422678",
+    "keyword": null,
+    "answer": "- Precio: 90,000 USD【4:1†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "0c9a805f7bd5705630116ae6dd9570b3"
+  },
+  {
+    "ref": "2f9c8227-e26f-4a5c-9594-2b1cb6dd8774",
+    "keyword": null,
+    "answer": "4. Lote en Country Alto Verde III:\n   - Oportunidad única en Alto Verde III para construir la casa de tus sueños",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9d8adea26398b4f1c4b42e70222b7585"
+  },
+  {
+    "ref": "5576c319-b369-4039-8c7f-bd3c36f6d045",
+    "keyword": null,
+    "answer": "- Lote central de 440m2 cerca de la portería【4:1†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "907d1758749c5742a87e1431dd02ac98"
+  },
+  {
+    "ref": "22485f2c-c3c9-4d69-ba6a-b1231edcf39e",
+    "keyword": null,
+    "answer": "5. Barrio Quinta Azucena:\n   - Lotes en venta de 700m2 con seguridad las 24 horas y expensas accesibles de $40,000.\n   - Excelente ubicación y espacios amplios para vivir【4:2†source】",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c86e03a9fe043befee615293e7c3f7da"
+  },
+  {
+    "ref": "38617079-0c34-4376-bf7f-00c41192a012",
+    "keyword": null,
+    "answer": "Estos son solo algunos ejemplos de las propiedades disponibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3bc842efe64ac191a069894f19c95a83"
+  },
+  {
+    "ref": "06706047-6bea-49db-9eb0-2108f5c70d05",
+    "keyword": null,
+    "answer": "Si necesitas más información sobre alguna de ellas o tienes alguna pregunta específica, no dudes en decírmelo.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "f910ddb3b133194dbf3dd18fe42eabfd"
+  },
+  {
+    "ref": "64f2bd46-7109-4b2e-965d-77b89d47b99b",
+    "keyword": "aab995151cf09659ffa6b7a5078c7119",
+    "answer": "Operador",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c1e45247f86e76232065c23221af9c3a"
+  },
+  {
+    "ref": "ans_a18e12f8-d76b-4663-aaf5-101cfc3a865a",
+    "keyword": "key_39e625b7-b5d6-4fd2-abce-4af3d1330b7e",
+    "answer": "El asistente virtual ha sido desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e78996340dedf3dfa4dbac2de9133e65",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_5d6b21dd-c495-40c8-93ca-ef813dfecd5f",
+    "keyword": "ans_a18e12f8-d76b-4663-aaf5-101cfc3a865a",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b8e61e1f6b77d7a14294520741efa22d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "237dfd2c-59c5-4468-9d08-407cd5785c91",
+    "keyword": "b8e61e1f6b77d7a14294520741efa22d",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_e57db7a6-380b-48e2-b6c2-cc5a9fa1a332",
+    "keyword": "key_529f9611-d470-49a9-914a-b93a25e72c49",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "aab995151cf09659ffa6b7a5078c7119",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "1dce1a68-6cd1-4455-9a20-7101cbd32e98",
+    "keyword": null,
+    "answer": "El asistente virtual está desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "63b360db5332a2d46a4d2d9150a8a87e"
+  },
+  {
+    "ref": "b3fe424f-bf34-4b4f-ab62-e2b3d2ced54c",
+    "keyword": "aab995151cf09659ffa6b7a5078c7119",
+    "answer": "Que tal",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "dfaaeb1d8014ec8096e164ea8b756e9d"
+  },
+  {
+    "ref": "ans_e57db7a6-380b-48e2-b6c2-cc5a9fa1a332",
+    "keyword": "key_529f9611-d470-49a9-914a-b93a25e72c49",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "aab995151cf09659ffa6b7a5078c7119",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "c69ef950-020a-4a51-a4f9-67d0b0efc633",
+    "keyword": null,
+    "answer": "El asistente virtual está desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "63b360db5332a2d46a4d2d9150a8a87e"
+  },
+  {
+    "ref": "fb7ca8f1-b3df-44c7-be78-42fa7b3f696e",
+    "keyword": "aab995151cf09659ffa6b7a5078c7119",
+    "answer": "Buenas",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "2df4a1753a951bb77b66edc9f2bb7e76"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ca9405eb-9b11-475a-9c0a-559b77020de9",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1b4031b59fda57c445fa2b1e23b98e5d"
+  },
+  {
+    "ref": "568b4210-b540-42e4-814f-fabc4d0f1b28",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Operador",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c1e45247f86e76232065c23221af9c3a"
+  },
+  {
+    "ref": "ans_43b3369b-6b07-421f-b2de-31a348a69877",
+    "keyword": "key_687dc4d1-c3db-4b73-be3d-d3e80f8356be",
+    "answer": "El asistente virtual ha sido desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5c744a31336320356214c8be8a898d2f",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_584a08de-c347-44dc-8331-d215d352876f",
+    "keyword": "ans_43b3369b-6b07-421f-b2de-31a348a69877",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f77927826da34bf73e49f92ace5703b7",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "c0f9b39c-8b3f-43c3-b993-26fa642dc648",
+    "keyword": "f77927826da34bf73e49f92ace5703b7",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "1417b142-5fcf-46e3-ad12-900d7cae6340",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Esta",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "89afd54f8da48dd7de50a1887125d5f7"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "b00820d6-3c76-4b3f-8385-d46781345099",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Que onda",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "12aeb03db36b57ecacca311e9fbfad40"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "a9f5bbfc-d017-471a-b9be-3ac5c17355f4",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Asistente",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "9a446e5d3bcb90c860055928a4df30c8"
+  },
+  {
+    "ref": "ans_b926c348-0acf-437e-b071-a20ae4aeffbd",
+    "keyword": "key_e3786bae-b8fa-4b41-bf94-cd38a7aacee6",
+    "answer": "El asistente virtual ha sido reactivado.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "98881e3c858e5169f4dadb5a5e0b5636",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_0a7a59c7-7f00-4c0d-ae85-24126c337db2",
+    "keyword": "ans_b926c348-0acf-437e-b071-a20ae4aeffbd",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "08e43c54fd4a3a41b0e9ef48d207efc4",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "6c23388d-fe3f-498f-a473-bcbaa83b7cd8",
+    "keyword": "08e43c54fd4a3a41b0e9ef48d207efc4",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "b12b9eb8-0ff4-40d8-9049-f54586abcca1",
+    "keyword": null,
+    "answer": "Hola de nuevo",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3dc9f31f9c182e0197ec472fc30d5f04"
+  },
+  {
+    "ref": "146b4509-f920-4cdc-98d5-abb42b482909",
+    "keyword": null,
+    "answer": "¿En qué puedo asistirte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "4581148a1fc183149b36e8091a01be83"
+  },
+  {
+    "ref": "531ba08c-3f33-497c-adb8-a93512f88200",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Operador",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c1e45247f86e76232065c23221af9c3a"
+  },
+  {
+    "ref": "ans_43b3369b-6b07-421f-b2de-31a348a69877",
+    "keyword": "key_687dc4d1-c3db-4b73-be3d-d3e80f8356be",
+    "answer": "El asistente virtual ha sido desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "5c744a31336320356214c8be8a898d2f",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_584a08de-c347-44dc-8331-d215d352876f",
+    "keyword": "ans_43b3369b-6b07-421f-b2de-31a348a69877",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f77927826da34bf73e49f92ace5703b7",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "58aec459-c3c6-48cb-8b30-dd99540608cd",
+    "keyword": "f77927826da34bf73e49f92ace5703b7",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "81ee1b56-f409-4282-adc6-a9ad4314ad2a",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Que onda",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "12aeb03db36b57ecacca311e9fbfad40"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "5fb2c77e-2116-4591-be4a-8a37e865cb34",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Estas",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "660a69c356defa8bd15fd824d5edabcf"
+  },
+  {
+    "ref": "ans_f6e65ba1-5e23-43b4-8c16-ddd2a69d1f0f",
+    "keyword": "key_3567337f-08ed-4df7-9701-623cac80d261",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d15a6106795a56026a4dbf90cc6da75d",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "18971601-0411-40d2-9b0f-c4d24dacb902",
+    "keyword": "d15a6106795a56026a4dbf90cc6da75d",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_03bd3e49-cb69-4125-8196-c5de96b66b32",
+    "keyword": "key_999c4d0b-c0a8-4e0c-88a5-8d9cf9ba7e6a",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8251ce31ce8ec84b32c058c2250b48f5",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "47e0b9b0-55cd-4e7f-82a8-4270c3fe9dca",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1b4031b59fda57c445fa2b1e23b98e5d"
+  },
+  {
+    "ref": "50c05e29-fd78-481e-8b71-5ad9a1e2a399",
+    "keyword": "8251ce31ce8ec84b32c058c2250b48f5",
+    "answer": "Operador",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c1e45247f86e76232065c23221af9c3a"
+  },
+  {
+    "ref": "ans_5b198fd3-d8bd-4e9c-816c-519e62442f28",
+    "keyword": "key_8c38b5c6-dded-4776-822c-e48da63acd1c",
+    "answer": "El asistente virtual ha sido desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "758e02ae2121009aed58f40507890064",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_817ada52-ad79-4ad1-a9b5-35927400c0af",
+    "keyword": "ans_5b198fd3-d8bd-4e9c-816c-519e62442f28",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8cd28e4bc16684b6e5f947428c5b7893",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "2526600b-a45a-4e69-84de-dfa36d264d03",
+    "keyword": "8cd28e4bc16684b6e5f947428c5b7893",
+    "answer": "Hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_c6b51ea0-6e4c-4fde-91e8-d345b6da2e73",
+    "keyword": "key_589aaa9d-1b02-4375-95d5-99ae392c0d1b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "90d62c5e3d2ff33480ebcd75a673997e",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "fe2242ba-593a-4840-b91b-beb2ec8ec290",
+    "keyword": null,
+    "answer": "El asistente virtual está desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "63b360db5332a2d46a4d2d9150a8a87e"
+  },
+  {
+    "ref": "3a65dfca-9a45-40bd-8768-b98b4833ab60",
+    "keyword": "90d62c5e3d2ff33480ebcd75a673997e",
+    "answer": "Estas?",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "0dbfeed342ccf7b7f489c9c7358fd676"
+  },
+  {
+    "ref": "ans_c6b51ea0-6e4c-4fde-91e8-d345b6da2e73",
+    "keyword": "key_589aaa9d-1b02-4375-95d5-99ae392c0d1b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "90d62c5e3d2ff33480ebcd75a673997e",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ad9e2499-5c1f-41d4-939e-97ce9fe2daae",
+    "keyword": null,
+    "answer": "El asistente virtual está desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "63b360db5332a2d46a4d2d9150a8a87e"
+  },
+  {
+    "ref": "aba51032-cee4-4a74-a0f9-23896a546718",
+    "keyword": "90d62c5e3d2ff33480ebcd75a673997e",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_3fe291d0-36aa-4a95-98ea-663b0e172862",
+    "keyword": "key_8b82eee9-b62f-41ba-b08b-3f7b228b09ad",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d8168305ecfa264d31743ba58bec9335",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "88b58b85-2815-4a78-8ef2-b1f4729d3205",
+    "keyword": "d8168305ecfa264d31743ba58bec9335",
+    "answer": "estas?",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "dcb6824f3e480dd2091465e46cf5b225"
+  },
+  {
+    "ref": "ans_3fe291d0-36aa-4a95-98ea-663b0e172862",
+    "keyword": "key_8b82eee9-b62f-41ba-b08b-3f7b228b09ad",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d8168305ecfa264d31743ba58bec9335",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "5bb8fd0b-4a11-4741-8822-0ef74e1e2bf7",
+    "keyword": "d8168305ecfa264d31743ba58bec9335",
+    "answer": "asistente",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "825f0b2fb7199b5dfddbe801fd833486"
+  },
+  {
+    "ref": "ans_33183d1e-261c-4140-85f1-d8fea97e5155",
+    "keyword": "key_f8c1627f-92a8-4538-9200-74a1f31ccdf6",
+    "answer": "El asistente virtual ha sido reactivado.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "de8dcfd17dd081c7c74646e20072f659",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_9a97f4e6-2552-4d16-96dd-04a95c6f1946",
+    "keyword": "ans_33183d1e-261c-4140-85f1-d8fea97e5155",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "21e3301f260d9f2fe10dff88f518a219",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "05bde28f-beda-4af2-a6b7-f97c3db2e96a",
+    "keyword": "21e3301f260d9f2fe10dff88f518a219",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_3fe291d0-36aa-4a95-98ea-663b0e172862",
+    "keyword": "key_8b82eee9-b62f-41ba-b08b-3f7b228b09ad",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "d8168305ecfa264d31743ba58bec9335",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "8c20850f-32e4-4a5d-982d-9a963bf04827",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1b4031b59fda57c445fa2b1e23b98e5d"
+  },
+  {
+    "ref": "67793337-ef20-4a08-b43f-cb5851376034",
+    "keyword": "d8168305ecfa264d31743ba58bec9335",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "7cc268fb-1603-487b-bd29-e0db4868513f",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo ayudarte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "1b4031b59fda57c445fa2b1e23b98e5d"
+  },
+  {
+    "ref": "8e5d84b7-0485-4048-9454-59dc035539a1",
+    "keyword": "f83db790c4aff7d9902fb1770fdd3454",
+    "answer": "operador",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "ba49a42dde27916358c6265a272bc1a9"
+  },
+  {
+    "ref": "ans_a31b784f-0ace-4e22-b1f8-e1ec046b886f",
+    "keyword": "key_39ead62c-3692-4dea-899b-b8e5b629fa30",
+    "answer": "El asistente virtual ha sido desactivado. Para reactivarlo, escribe \"asistente\".",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "0f6721d303acc291d6501d433b5a2df8",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_89f07790-8e37-496f-9e15-1480156b6f0f",
+    "keyword": "ans_a31b784f-0ace-4e22-b1f8-e1ec046b886f",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "1252ce7022c1ffbb855c098ce9bb5046",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "c3db49a8-096c-4c3b-a82a-2a6b05171acd",
+    "keyword": "1252ce7022c1ffbb855c098ce9bb5046",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "f9baa580-87d0-41b4-a908-7d3eaf5c49ed",
+    "keyword": "f83db790c4aff7d9902fb1770fdd3454",
+    "answer": "como estas?",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "0acf2ebb642c3ef28d3aeeda6a93c0b4"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "b9b1b468-b74e-458d-b3de-9ed9e489e200",
+    "keyword": "f83db790c4aff7d9902fb1770fdd3454",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "6bbfbdd4-7483-44b5-ae98-2c10dec5f7d3",
+    "keyword": "f83db790c4aff7d9902fb1770fdd3454",
+    "answer": "asistente",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "825f0b2fb7199b5dfddbe801fd833486"
+  },
+  {
+    "ref": "ans_cd85e4c7-3fbf-4385-9392-79beae50a398",
+    "keyword": "key_218f1161-fbe8-46e5-8df5-d16920c0c04e",
+    "answer": "El asistente virtual ha sido reactivado.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "eb21c88d1d9486c0f654d912e736e3ef",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "ans_1ad0d899-f446-40c5-abfa-bb67650e3614",
+    "keyword": "ans_cd85e4c7-3fbf-4385-9392-79beae50a398",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7c4deb4ed6f585c39d2a207c9adc4df8",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "b31c47ed-a4fb-4c11-b738-ce033537358a",
+    "keyword": "7c4deb4ed6f585c39d2a207c9adc4df8",
+    "answer": "hola",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "91a682a9-a109-4c75-96d9-30adc544c88b",
+    "keyword": null,
+    "answer": "¡Hola! ¿En qué puedo asistirte hoy?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "fba45e69813b847d6bf6f12a98e6505c"
+  },
+  {
+    "ref": "e87baf4b-7492-4a41-b1bb-df4ff1bf7174",
+    "keyword": "f83db790c4aff7d9902fb1770fdd3454",
+    "answer": "propiedades",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "1fc2065d5e24a0b189e228ff5eaa268f"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "404f6f67-3769-4a72-b48d-a29b1312248b",
+    "keyword": null,
+    "answer": "Aquí tienes algunas propiedades disponibles:\n\n1. **Country Terranova - Lote en Venta**\n   - Superficie: 562m2\n   - Orientación: Sur Norte\n   - Amenidades: Cancha de fútbol, tanques de agua propios, seguridad las 24 horas\n   - Detalles: Ideal para construir una residencia con vista impresionante y comodidades en un entorno natural privilegiado",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "99de3091d6fafef88ca16966a87b2a82"
+  },
+  {
+    "ref": "dbc58283-fd02-45d8-86ee-f5fa3adc6d57",
+    "keyword": null,
+    "answer": "2. **Barrio Quinta Azucena - Lote Central en Venta**\n   - Características: Lotes amplios de 700m2, seguridad 24 horas, expensas accesibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9d05bcfa357949f860a35f5d9f668738"
+  },
+  {
+    "ref": "41f6e7a5-bfce-4184-b928-872e8d05d674",
+    "keyword": null,
+    "answer": "- Ubicación: Excelente ubicación para disfrutar de serenidad y comodidad en Quinta Azucena",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "d55a5d29a87e028f9468ca00ec82d707"
+  },
+  {
+    "ref": "8d5b731a-47ee-4db0-a87d-47f7f0cdd341",
+    "keyword": null,
+    "answer": "3. **Country San Pablo Etapa 1 - Terreno en Venta**\n   - Superficie: 815m2\n   - Amenidades: Canchas de golf, tenis, salón de fiestas, seguridad 24 horas\n   - Precio: $90,000 USD\n   \n4. **Country Alto Verde III - Lote en Venta**\n   - Superficie: 440m2\n   - Detalles: Oportunidad única para construir la casa de tus sueños en un barrio cerrado prestigioso",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "316901befacc8e5b049e85c43d465f44"
+  },
+  {
+    "ref": "a1882e6c-7ea4-4e79-a043-f3a849794a54",
+    "keyword": null,
+    "answer": "Estas son solo algunas de las propiedades disponibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c7c31197f4ace28856d1964d275ec515"
+  },
+  {
+    "ref": "4aeb8715-1e47-4f89-b3dd-101b724da492",
+    "keyword": null,
+    "answer": "Si deseas más información sobre alguna de ellas o tienes algún otro requerimiento específico, por favor házmelo saber.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "fbf921c40fff904ff0bf1a4ef0c7a59c"
+  },
+  {
+    "ref": "e4ef9a1e-532e-4ba5-ad38-b287992b7f4e",
+    "keyword": "f83db790c4aff7d9902fb1770fdd3454",
+    "answer": "cuales son todas las propiedades",
+    "options": {},
+    "from": "5493812010781",
+    "refSerialize": "e82f8d56ae68e7d51de4353f60432ac8"
+  },
+  {
+    "ref": "ans_d2d4e835-2cf1-42bc-a96d-ca7b8ab1458f",
+    "keyword": "key_481987e5-2365-4895-90df-f430d8874565",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "f83db790c4aff7d9902fb1770fdd3454",
+    "from": "5493812010781"
+  },
+  {
+    "ref": "1922a2d7-425c-438e-9003-0582c3f31c86",
+    "keyword": null,
+    "answer": "Aquí tienes una lista completa de las propiedades disponibles:\n\n1. **Country Terranova - Lote en Venta**\n   - Superficie: 562m2\n   - Orientación: Sur Norte\n   - Amenidades: Cancha de fútbol, tanques de agua propios, seguridad las 24 horas\n   - Detalles: Ideal para construir una residencia con vista impresionante y comodidades en un entorno natural privilegiado",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "abab5f1a2c4dad869b95910078d88d3e"
+  },
+  {
+    "ref": "3b93720e-6e6c-43d4-8753-61ea3f5a9a2f",
+    "keyword": null,
+    "answer": "2. **Barrio Quinta Azucena - Lote Central en Venta**\n   - Características: Lotes amplios de 700m2, seguridad 24 horas, expensas accesibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "9d05bcfa357949f860a35f5d9f668738"
+  },
+  {
+    "ref": "831340eb-8c3a-4e30-925e-8c32de68e940",
+    "keyword": null,
+    "answer": "- Ubicación: Excelente ubicación para disfrutar de serenidad y comodidad en Quinta Azucena",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "d55a5d29a87e028f9468ca00ec82d707"
+  },
+  {
+    "ref": "4f37e6b8-dbbd-4fce-9274-a27169a8003a",
+    "keyword": null,
+    "answer": "3. **Country San Pablo Etapa 1 - Terreno en Venta**\n   - Superficie: 815m2\n   - Amenidades: Canchas de golf, tenis, salón de fiestas, seguridad 24 horas\n   - Precio: $90,000 USD\n\n4. **Country Alto Verde III - Lote en Venta**\n   - Superficie: 440m2\n   - Detalles: Oportunidad única para construir la casa de tus sueños en un barrio cerrado prestigioso",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "3ba1559471fd62d60f0645c7c901766f"
+  },
+  {
+    "ref": "d76d29d1-89e8-4a8e-b971-9555288e54dd",
+    "keyword": null,
+    "answer": "Esta es la lista completa de las propiedades disponibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "c950a208b750b7acaba151da006c3951"
+  },
+  {
+    "ref": "b871f727-bff4-453b-8c98-10dc7b738aff",
+    "keyword": null,
+    "answer": "Si deseas más detalles sobre alguna de ellas o tienes alguna pregunta específica, por favor házmelo saber.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5493812010781",
+    "refSerialize": "b9a9e9f05eb25ff4cf26817ed2982037"
   }
 ]

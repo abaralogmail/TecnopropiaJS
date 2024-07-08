@@ -5,81 +5,88 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
 const run = require('./mensajes/index.js')
-const { chatWithAssistant } = require('./mensajes/Assistant.js');
+const { chatWithAssistant } = require('./mensajes/Assistant.js')
+const fs = require('fs')
 
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
-    [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null,
-    [flowSecundario]
-)
-
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null,
-    [flowSecundario]
-)
+let stateByUser = {}
 
 const flowWelcome = addKeyword(EVENTS.WELCOME)
-//    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
 
+const flowOperador = addKeyword(['operador'])
+    .addAnswer('El asistente virtual ha sido desactivado. Para reactivarlo, escribe "asistente".')
+    .addAction(async (ctx, { state }) => {
+        const userId = ctx.from
+        stateByUser[userId] = stateByUser[userId] || { assistantEnabled: true }
+        stateByUser[userId].assistantEnabled = false
+        saveState()
+    })
+
+const flowAsistente = addKeyword(['asistente'])
+    .addAnswer('El asistente virtual ha sido reactivado.')
+    .addAction(async (ctx, { state }) => {
+        const userId = ctx.from
+        stateByUser[userId] = stateByUser[userId] || { assistantEnabled: true }
+        stateByUser[userId].assistantEnabled = true
+        saveState()
+    })
 
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
     .addAction(async (ctx, { flowDynamic, state }) => {
         try {
-            const newHistory = (state.getMyState()?.history ?? [])
-            console.log('Estado actual antes de procesar el mensaje:', state.getMyState());
-
+            const userId = ctx.from
+            const newHistory = (stateByUser[userId]?.history ?? [])
+            console.log('Estado actual antes de procesar el mensaje:', stateByUser[userId]);
 
             newHistory.push({
                 role: 'user',
                 content: ctx.body,
-                threadId: "thread321321"
             })
-     
-            const largeResponse = await chatWithAssistant(ctx, newHistory)
-            const chunks = largeResponse.split(/(?<!\d)\.\s+/g);
-            for (const chunk of chunks) {
-                await flowDynamic(chunk)
+
+            const currentState = stateByUser[userId] || { assistantEnabled: true };
+
+            if (currentState.assistantEnabled) {
+                const largeResponse = await chatWithAssistant(ctx, newHistory)
+                const chunks = largeResponse.split(/(?<!\d)\.\s+/g);
+                for (const chunk of chunks) {
+                    await flowDynamic(chunk)
+                }
+
+                newHistory.push({
+                    role: 'assistant',
+                    content: largeResponse
+                })
+                stateByUser[userId] = { ...stateByUser[userId], history: newHistory }
+            } else {
+               // await flowDynamic('El asistente virtual está desactivado. Para reactivarlo, escribe "asistente".')
             }
 
-            newHistory.push({
-                role: 'assistant',
-                content: largeResponse
-            })
-        //    console.log('Nuevo historial:', newHistory);
-            await state.update({ history: newHistory })
-      //      console.log('Estado actualizado después de procesar el mensaje:', state.getMyState());
-
+            console.log('Estado actualizado después de procesar el mensaje:', stateByUser[userId]);
+            saveState()
 
         } catch (err) {
             console.log(`[ERROR]:`, err)
         }
     })
 
+const saveState = () => {
+    fs.writeFileSync('state.json', JSON.stringify(stateByUser))
+}
+
+const loadState = () => {
+    try {
+        stateByUser = JSON.parse(fs.readFileSync('state.json', 'utf-8'))
+    } catch (err) {
+        stateByUser = {}
+    }
+}
+
 const main = async () => {
-    //const adapterDB = new JsonFileAdapter()
     const adapterDB = new JsonFileAdapter({ pathFile: './db.json' })
-    const adapterFlow = createFlow([flowPrincipal])
+    const adapterFlow = createFlow([flowPrincipal, flowOperador, flowAsistente])
     const adapterProvider = createProvider(BaileysProvider)
+
+    loadState()
 
     createBot({
         flow: adapterFlow,
