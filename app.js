@@ -7,6 +7,9 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
 const run = require('./mensajes/index.js')
 const { chatWithAssistant } = require('./mensajes/Assistant.js')
 const fs = require('fs')
+const { NotionDBLoader } = require('./mensajes/notiondb.js')
+
+
 
 let stateByUser = {}
 
@@ -31,6 +34,20 @@ const flowAsistente = addKeyword(['asistente'])
         saveState()
     })
 
+
+    const flowNotion = addKeyword(['notion'])
+    //.addAnswer('El asistente virtual ha sido reactivado.')
+    .addAction(async (ctx, { state }) => {
+        const userId = ctx.from
+        const loader = new NotionDBLoader({
+            databaseId: "tu-id-de-base-de-datos-de-notion",
+            notionIntegrationToken: "tu-token-de-integracion-de-notion",
+            pageSizeLimit: 50 // opcional, por defecto es 50
+          });
+
+    })
+
+    
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
     .addAction(async (ctx, { flowDynamic, state }) => {
         try {
@@ -83,7 +100,7 @@ const loadState = () => {
 
 const main = async () => {
     const adapterDB = new JsonFileAdapter({ pathFile: './db.json' })
-    const adapterFlow = createFlow([flowPrincipal, flowOperador, flowAsistente])
+    const adapterFlow = createFlow([flowPrincipal, flowOperador, flowAsistente, flowNotion])
     const adapterProvider = createProvider(BaileysProvider)
 
     loadState()
