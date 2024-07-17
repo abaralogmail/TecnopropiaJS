@@ -7,7 +7,7 @@ const JsonFileAdapter = require('@bot-whatsapp/database/json')
 const run = require('./mensajes/index.js')
 const { chatWithAssistant } = require('./mensajes/Assistant.js')
 const fs = require('fs')
-const { NotionDBLoader } = require('./mensajes/notiondb.js')
+const { NotionDBLoader } = require('./mensajes/NotiondbCody.js')
 
 
 
@@ -36,16 +36,44 @@ const flowAsistente = addKeyword(['asistente'])
 
 
     const flowNotion = addKeyword(['notion'])
-    //.addAnswer('El asistente virtual ha sido reactivado.')
+    .addAnswer('Notion addAction')
     .addAction(async (ctx, { state }) => {
         const userId = ctx.from
+        //const notion = new Client({ auth: process.env.NOTION_API_KEY });
+
         const loader = new NotionDBLoader({
-            databaseId: "tu-id-de-base-de-datos-de-notion",
-            notionIntegrationToken: "tu-token-de-integracion-de-notion",
+            //https://www.notion.so/3cc27d7003604ce6888f27c690eb99d2?v=f7b9409a99d44051aa362959e3d08cf4&pvs=4
+         //   databaseId: 'd2b1f3b5231b4580a08004e989e5a123',
+            databaseId: "c57138e0-21dd-478d-8be8-23e453b0dc4d",
+            notionIntegrationToken: process.env.NOTION_API_KEY,
             pageSizeLimit: 50 // opcional, por defecto es 50
           });
+         // let databaseId= "c57138e0-21dd-478d-8be8-23e453b0dc4d";
 
+          const databases = await loader.listDatabases();
+
+           
+          let message = 'Available databases:\n\n';
+          databases.forEach(db => {
+            message += `- ${db.title} (ID: ${db.id})\n`;
+            console.log(message); 
+          });
+        
+          let documents = await loader.load();
+          documents.forEach(db => {     
+            //const name = db.properties[0]?.plain_text || 'Untitled';
+            const name = db.properties.Descripción.id ;
+            const description = db.properties?.ID?.rich_text?.[0]?.plain_text || 'No description';
+
+            message += `- ${name} (ID: ${db.id})\n`;
+            console.log(description); 
+          });
+          /*documents.forEach(doc => {
+            message += `- ${doc.properties.Name.title[0].plain_text} (ID: ${doc.id})\n`;
+            console.log(message);*/
+          //await flowDynamic(message);
     })
+
 
     
 const flowPrincipal = addKeyword(EVENTS.WELCOME)
