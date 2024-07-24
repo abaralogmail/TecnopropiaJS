@@ -1,137 +1,134 @@
 const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
-require('dotenv/config');
-
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const JsonFileAdapter = require('@bot-whatsapp/database/json')
-const run = require('./mensajes/index.js')
-const { chatWithAssistant } = require('./mensajes/Assistant.js')
-const fs = require('fs')
-const { NotionDBLoader } = require('./mensajes/NotiondbCody.js')
+const sendBulkMessages = require('./mensajes/sendBulkMessages');
+
+const run = require('./mensajes/logica');
+const { chatWithAssistant } = require('./mensajes/Assistant');
+const fs = require('fs').promises
+
+let blockedUsers = new Set();
+const BLOCKED_USERS_FILE = 'blocked_users.json';
+let messageCount = 0;
+let userMessageCounts = {};
 
 
 
-let stateByUser = {}
+const flowEnviarMensaje = addKeyword(['enviar mensaje'])
+    .addAction(async (ctx, { flowDynamic, provider, gotoFlow }) => {
+        if (ctx.body.toLowerCase() !== 'enviar mensaje') return gotoFlow(flowPrincipal);
+        const numero = '5493812010781';
+        const mensaje = 'Este es un mensaje de prueba desde MariaDono';
 
-const flowWelcome = addKeyword(EVENTS.WELCOME)
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
-
-const flowOperador = addKeyword(['operador'])
-    .addAnswer('El asistente virtual ha sido desactivado. Para reactivarlo, escribe "asistente".')
-    .addAction(async (ctx, { state }) => {
-        const userId = ctx.from
-        stateByUser[userId] = stateByUser[userId] || { assistantEnabled: true }
-        stateByUser[userId].assistantEnabled = false
-        saveState()
-    })
-
-const flowAsistente = addKeyword(['asistente'])
-    .addAnswer('El asistente virtual ha sido reactivado.')
-    .addAction(async (ctx, { state }) => {
-        const userId = ctx.from
-        stateByUser[userId] = stateByUser[userId] || { assistantEnabled: true }
-        stateByUser[userId].assistantEnabled = true
-        saveState()
-    })
-
-
-    const flowNotion = addKeyword(['notion'])
-    .addAnswer('Notion addAction')
-    .addAction(async (ctx, { state }) => {
-        const userId = ctx.from
-        //const notion = new Client({ auth: process.env.NOTION_API_KEY });
-
-        const loader = new NotionDBLoader({
-            //https://www.notion.so/3cc27d7003604ce6888f27c690eb99d2?v=f7b9409a99d44051aa362959e3d08cf4&pvs=4
-         //   databaseId: 'd2b1f3b5231b4580a08004e989e5a123',
-            databaseId: "c57138e0-21dd-478d-8be8-23e453b0dc4d",
-            notionIntegrationToken: process.env.NOTION_API_KEY,
-            pageSizeLimit: 50 // opcional, por defecto es 50
-          });
-         // let databaseId= "c57138e0-21dd-478d-8be8-23e453b0dc4d";
-
-          const databases = await loader.listDatabases();
-
-           
-          let message = 'Available databases:\n\n';
-          databases.forEach(db => {
-            message += `- ${db.title} (ID: ${db.id})\n`;
-            console.log(message); 
-          });
-        
-          let documents = await loader.load();
-          documents.forEach(db => {     
-            //const name = db.properties[0]?.plain_text || 'Untitled';
-            const name = db.properties.Descripción.id ;
-            const description = db.properties?.ID?.rich_text?.[0]?.plain_text || 'No description';
-
-            message += `- ${name} (ID: ${db.id})\n`;
-            console.log(description); 
-          });
-          /*documents.forEach(doc => {
-            message += `- ${doc.properties.Name.title[0].plain_text} (ID: ${doc.id})\n`;
-            console.log(message);*/
-          //await flowDynamic(message);
-    })
-
-
-    
-const flowPrincipal = addKeyword(EVENTS.WELCOME)
-    .addAction(async (ctx, { flowDynamic, state }) => {
         try {
-            const userId = ctx.from
-            const newHistory = (stateByUser[userId]?.history ?? [])
-            console.log('Estado actual antes de procesar el mensaje:', stateByUser[userId]);
-
-            newHistory.push({
-                role: 'user',
-                content: ctx.body,
-            })
-
-            const currentState = stateByUser[userId] || { assistantEnabled: true };
-
-            if (currentState.assistantEnabled) {
-                const largeResponse = await chatWithAssistant(ctx, newHistory)
-                const chunks = largeResponse.split(/(?<!\d)\.\s+/g);
-                for (const chunk of chunks) {
-                    await flowDynamic(chunk)
-                }
-
-                newHistory.push({
-                    role: 'assistant',
-                    content: largeResponse
-                })
-                stateByUser[userId] = { ...stateByUser[userId], history: newHistory }
-            } else {
-               // await flowDynamic('El asistente virtual está desactivado. Para reactivarlo, escribe "asistente".')
-            }
-
-            console.log('Estado actualizado después de procesar el mensaje:', stateByUser[userId]);
-            saveState()
-
-        } catch (err) {
-            console.log(`[ERROR]:`, err)
+            await sendBulkMessages('./mensajes/Conexion - sendBulkMessages.xlsx', provider);
+            flowDynamic('Mensaje enviado con éxito');
+        } catch (error) {
+            console.error('Error al enviar mensaje:', error);
+            flowDynamic('Hubo un error al enviar el mensaje');
         }
     })
 
-const saveState = () => {
-    fs.writeFileSync('state.json', JSON.stringify(stateByUser))
+const flowOperador = addKeyword(['operadora', 'op', 'desactivar', 'pausa', 'pausar'])
+    .addAction(async (ctx, { flowDynamic, gotoFlow }) => {
+        const validKeywords = ['operadora', 'op', 'desactivar', 'pausa', 'pausar'];
+        if (!validKeywords.includes(ctx.body.toLowerCase())) return gotoFlow(flowPrincipal);
+        
+        const userId = ctx.from;
+        blockedUsers.add(userId);
+        await saveBlockedUsers();
+        flowDynamic('El asistente virtual ha sido desactivado 🚫. Para reactivarlo, escribe "asistente", "chat", "activar" o "reanudar" 🟢.');
+        messageCount = 0;
+    })
+
+const flowAsistente = addKeyword(['chat', 'asistente', 'activar', 'reanudar'])
+    .addAction(async (ctx, { flowDynamic, gotoFlow }) => {
+        const validKeywords = ['chat', 'asistente', 'activar', 'reanudar'];
+        if (!validKeywords.includes(ctx.body.toLowerCase())) return gotoFlow(flowPrincipal);
+        
+        const userId = ctx.from;
+        blockedUsers.delete(userId);
+        await saveBlockedUsers();
+        flowDynamic("El asistente virtual ha sido reactivado 🟢. La operadora está disponible de lunes a sábado de 8.30 a 12.30 hs. Si necesitas desactivarlo, escribe 'operadora', 'op', 'desactivar', 'pausa' o 'pausar' 🚫.");
+        messageCount = 0;
+    })
+
+const sendChunksWithDelay = (chunks, delay, userId, flowDynamic) => {
+    let i = 0;
+    const sendChunk = () => {
+        if (i < chunks.length && !blockedUsers.has(userId)) {
+            flowDynamic(chunks[i]);
+            i++;
+            setTimeout(sendChunk, delay);
+        }
+    }
+    sendChunk();
 }
 
-const loadState = () => {
+const loadBlockedUsers = async () => {
     try {
-        stateByUser = JSON.parse(fs.readFileSync('state.json', 'utf-8'))
-    } catch (err) {
-        stateByUser = {}
+        const data = await fs.readFile(BLOCKED_USERS_FILE, 'utf8');
+        blockedUsers = new Set(JSON.parse(data));
+    } catch (error) {
+        if (error.code !== 'ENOENT') {
+            console.log('Error loading blocked users:', error);
+        }
     }
 }
 
-const main = async () => {
-    const adapterDB = new JsonFileAdapter({ pathFile: './db.json' })
-    const adapterFlow = createFlow([flowPrincipal, flowOperador, flowAsistente, flowNotion])
-    const adapterProvider = createProvider(BaileysProvider)
+const saveBlockedUsers = async () => {
+    try {
+        await fs.writeFile(BLOCKED_USERS_FILE, JSON.stringify([...blockedUsers]));
+    } catch (error) {
+        console.log('Error saving blocked users:', error);
+    }
+}
 
-    loadState()
+const flowPrincipal = addKeyword(EVENTS.WELCOME)
+    .addAction(async (ctx, { flowDynamic, state }) => {
+        const userId = ctx.from;
+
+       // Initialize or increment the message count for this user
+       userMessageCounts[userId] = (userMessageCounts[userId] || 0) + 1;
+
+       // Check if it's the 8th message (or a multiple of 8)
+       if (userMessageCounts[userId] % 8 === 0) {
+           flowDynamic("Recuerda que puedes desactivar el asistente escribiendo 'operadora', 'op', 'desactivar', 'pausa' o 'pausar' 🚫. La operadora está disponible de lunes a sábado de 8.30 a 12.30 hs. Para reactivarlo, escribe 'asistente', 'chat', 'activar' o 'reanudar' 🟢.");
+       }
+
+        if (!blockedUsers.has(userId)) {
+            try {
+                const newHistory = (state.getMyState()?.history ?? [])
+                newHistory.push({ role: 'user', content: ctx.body })
+
+                console.log(`[ctx.body]:`, ctx.body);
+                const largeResponse = await chatWithAssistant(ctx, newHistory)
+                console.log(`[RESPONSE]:`, largeResponse);
+
+                const chunks = largeResponse.split(/(?<!\d)\.\s+/g);
+                sendChunksWithDelay(chunks, 5000, userId, flowDynamic);
+
+                newHistory.push({ role: 'assistant', content: largeResponse })
+                await state.update({ history: newHistory })
+
+            } catch (err) {
+                console.log(`[ERROR]:`, err)
+            }
+        }
+    })
+
+
+
+
+
+
+const main = async () => {
+    await loadBlockedUsers();
+
+    const adapterDB = new JsonFileAdapter()
+    const adapterFlow = createFlow([flowEnviarMensaje, flowOperador, flowAsistente, flowPrincipal])
+    const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
         flow: adapterFlow,
