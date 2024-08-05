@@ -16,7 +16,7 @@ const NOTION_BASE_URL = "https://api.notion.com/v1";
  * const docs = await loader.load();
  * ```
  */
-export class NotionDBLoader extends BaseDocumentLoader {
+class NotionDBLoader extends BaseDocumentLoader {
     constructor({ databaseId, notionApiVersion = "2022-06-28", notionIntegrationToken = getEnvironmentVariable("NOTION_INTEGRATION_TOKEN"), pageSizeLimit = 50, }) {
         super();
         Object.defineProperty(this, "integrationToken", {
@@ -196,3 +196,5 @@ export class NotionDBLoader extends BaseDocumentLoader {
         return resultLinesArr.join("\n");
     }
 }
+ 
+module.exports = { NotionDBLoader };
